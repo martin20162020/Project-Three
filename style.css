@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(235, 235, 235);
+    font-family: 'Benne', serif;
+}
+
+p{
+    font-size: 15px;
+}
+
+.row{
+    --bs-gutter-x: 3rem;
+}
+
+.main-content{
+    padding: 2rem;
+    background-color: whitesmoke;
+    margin-top:3rem;
+}
+
+.date{
+    font-size:10px;
+    font-weight: bold;
+}
+
+.tags{
+    font-size: 10px;
+}
+
+
+/* Navigation */
+nav img{
+    border-radius: 50%;
+    height: 3rem;
+    width:3rem;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+
+.nav-link:hover {
+    color: rgb(235, 221, 221);
+}
+
+/* Icons */
+.fa-user-alt{
+    font-size: 15rem;
+    padding: 2rem;
+    color: rgb(177, 163, 163);
+    background-color: rgb(63, 66, 80);
+    margin-top:3rem;
+    line-height: 1.5;
+}
+
+.fa-grip-lines{
+    color:whitesmoke;
+}
+
+
+/* Side bar */
+.popular-post{
+    padding: 2rem;
+    background-color: whitesmoke;
+    margin-top:1.5rem;
+    border:0;
+    width:19rem;
+}
+
+.card-img{
+    text-decoration: none;
+    padding: .5rem;
+    list-style-type: none;
+}
+
+@media screen and (max-width:1388px){
+    .fa-user-alt{
+        font-size: 10rem;
+    }
+
+    .popular-post{
+        width: 14rem;
+    }
+
+    .popular-post h5{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .col-md-4{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fa-user-alt{
+        margin-right: 4rem;
+        height: 24rem;
+    }
+
+    .popular-post{
+        margin-top: 3rem;
+        height: 24rem;
+    }
+}
+
+@media screen and (max-width: 588px){
+    .col-md-4{
+        display: flex;
+        flex-direction: column;
+    }
+}
